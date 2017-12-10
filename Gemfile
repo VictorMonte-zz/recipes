@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 
+config.web_console.development_only = false
 ruby '2.3.3'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.9'
