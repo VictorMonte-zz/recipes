@@ -28,6 +28,10 @@ class ChefsController < ApplicationController
     end
   end
 
+  def show
+    @chef = Chef.find(params[:id])
+  end
+
   private
 
   def chef_params
